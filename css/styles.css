@@ -1,6 +1,6 @@
 body {
   background-image: url("img/buf.jpg");
-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 
 }
@@ -19,7 +19,7 @@ h2 {
 .row-fluid {
   display: table-cell;
   vertical-align: bottom;
-  float: none;
+  float: right;
 }
 .page-header {
   background-color: pink;
@@ -32,4 +32,7 @@ h2 {
 
 img {
   float: none;
+}
+.jumbotron {
+  background-color: powderblue;
 }
