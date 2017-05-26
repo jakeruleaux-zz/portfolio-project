@@ -1,10 +1,15 @@
-html {
-  background: url(img/buf.jpg) no-repeat center center fixed;
-  background-size: cover;
-  opacity: 0.6;
-
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
+.bg {
+  background-image: url(img_buf.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #self {
   height: 100%;
   width: 100%;
@@ -24,8 +29,7 @@ h2 {
 .page-header {
   background-color: pink;
 }
-/*body {
-  background: url (img_buf.jpg);
-  background-size: 100% 100%
+#buf {
+  size: 100% 100%;
   background-repeat: no-repeat;
-}*/
+}
