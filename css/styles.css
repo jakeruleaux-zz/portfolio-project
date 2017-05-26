@@ -2,7 +2,6 @@ body {
   background-image: url("img/buf.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 #self {
@@ -23,12 +22,9 @@ h2 {
   float: right;
 }
 
-
-}
 #mid {
   margin-top: 10%
 }
-
 
 .jumbotron {
   background-color: powderblue;
