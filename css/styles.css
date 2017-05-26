@@ -1,15 +1,10 @@
-body, html {
-  height: 100%;
-  margin: 0;
+body {
+  background-image: url("img/buf.jpg");
+background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
-.bg {
-  background-image: url(img_buf.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 #self {
   height: 100%;
   width: 100%;
@@ -17,8 +12,8 @@ body, html {
 
 h2 {
   font-weight: bolder;
-  font-size: 25px;
-  font-family: monospace;
+  font-size: 50px;
+  font-family: brush script MT,cursive;
 }
 
 .row-fluid {
@@ -29,7 +24,12 @@ h2 {
 .page-header {
   background-color: pink;
 }
-#buf {
-  size: 100% 100%;
-  background-repeat: no-repeat;
+
+}
+#mid {
+  margin-top: 10%
+}
+
+img {
+  float: none;
 }
